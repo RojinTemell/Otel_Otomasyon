@@ -1,0 +1,26 @@
+C:\Users\kocak\Desktop\Veri_tabanı_proje\Veri_tabanı_proje\bin\Debug\Veri_tabanı_proje.exe.config
+C:\Users\kocak\Desktop\Veri_tabanı_proje\Veri_tabanı_proje\bin\Debug\Veri_tabanı_proje.exe
+C:\Users\kocak\Desktop\Veri_tabanı_proje\Veri_tabanı_proje\bin\Debug\Veri_tabanı_proje.pdb
+C:\Users\kocak\Desktop\Veri_tabanı_proje\Veri_tabanı_proje\obj\Debug\Veri_tabanı_proje.csproj.AssemblyReference.cache
+C:\Users\kocak\Desktop\Veri_tabanı_proje\Veri_tabanı_proje\obj\Debug\Veri_tabanı_proje.form_anaEkran.resources
+C:\Users\kocak\Desktop\Veri_tabanı_proje\Veri_tabanı_proje\obj\Debug\Veri_tabanı_proje.Properties.Resources.resources
+C:\Users\kocak\Desktop\Veri_tabanı_proje\Veri_tabanı_proje\obj\Debug\Veri_tabanı_proje.RezervasyonYap_ekran.resources
+C:\Users\kocak\Desktop\Veri_tabanı_proje\Veri_tabanı_proje\obj\Debug\Veri_tabanı_proje.Yonetici_Ekran.resources
+C:\Users\kocak\Desktop\Veri_tabanı_proje\Veri_tabanı_proje\obj\Debug\Veri_tabanı_proje.Yönetici_giris.resources
+C:\Users\kocak\Desktop\Veri_tabanı_proje\Veri_tabanı_proje\obj\Debug\Veri_tabanı_proje.csproj.GenerateResource.cache
+C:\Users\kocak\Desktop\Veri_tabanı_proje\Veri_tabanı_proje\obj\Debug\Veri_tabanı_proje.csproj.CoreCompileInputs.cache
+C:\Users\kocak\Desktop\Veri_tabanı_proje\Veri_tabanı_proje\obj\Debug\Veri_tabanı_proje.exe
+C:\Users\kocak\Desktop\Veri_tabanı_proje\Veri_tabanı_proje\obj\Debug\Veri_tabanı_proje.pdb
+C:\Users\kocak\Desktop\VERİTABANNI PROJE\Veri_tabanı_proje\Veri_tabanı_proje\bin\Debug\Veri_tabanı_proje.exe.config
+C:\Users\kocak\Desktop\VERİTABANNI PROJE\Veri_tabanı_proje\Veri_tabanı_proje\bin\Debug\Veri_tabanı_proje.exe
+C:\Users\kocak\Desktop\VERİTABANNI PROJE\Veri_tabanı_proje\Veri_tabanı_proje\bin\Debug\Veri_tabanı_proje.pdb
+C:\Users\kocak\Desktop\VERİTABANNI PROJE\Veri_tabanı_proje\Veri_tabanı_proje\obj\Debug\Veri_tabanı_proje.csproj.AssemblyReference.cache
+C:\Users\kocak\Desktop\VERİTABANNI PROJE\Veri_tabanı_proje\Veri_tabanı_proje\obj\Debug\Veri_tabanı_proje.form_anaEkran.resources
+C:\Users\kocak\Desktop\VERİTABANNI PROJE\Veri_tabanı_proje\Veri_tabanı_proje\obj\Debug\Veri_tabanı_proje.Properties.Resources.resources
+C:\Users\kocak\Desktop\VERİTABANNI PROJE\Veri_tabanı_proje\Veri_tabanı_proje\obj\Debug\Veri_tabanı_proje.RezervasyonYap_ekran.resources
+C:\Users\kocak\Desktop\VERİTABANNI PROJE\Veri_tabanı_proje\Veri_tabanı_proje\obj\Debug\Veri_tabanı_proje.Yonetici_Ekran.resources
+C:\Users\kocak\Desktop\VERİTABANNI PROJE\Veri_tabanı_proje\Veri_tabanı_proje\obj\Debug\Veri_tabanı_proje.Yönetici_giris.resources
+C:\Users\kocak\Desktop\VERİTABANNI PROJE\Veri_tabanı_proje\Veri_tabanı_proje\obj\Debug\Veri_tabanı_proje.csproj.GenerateResource.cache
+C:\Users\kocak\Desktop\VERİTABANNI PROJE\Veri_tabanı_proje\Veri_tabanı_proje\obj\Debug\Veri_tabanı_proje.csproj.CoreCompileInputs.cache
+C:\Users\kocak\Desktop\VERİTABANNI PROJE\Veri_tabanı_proje\Veri_tabanı_proje\obj\Debug\Veri_tabanı_proje.exe
+C:\Users\kocak\Desktop\VERİTABANNI PROJE\Veri_tabanı_proje\Veri_tabanı_proje\obj\Debug\Veri_tabanı_proje.pdb
