@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Veri_tabanı_proje
 {
-    internal class Rezervasyon
+    public  class Rezervasyon
     {
+
     }
 }
