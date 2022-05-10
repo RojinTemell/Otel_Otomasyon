@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Veri_tabanı_proje
 {
-    internal class _60GunOncedenRezervasyon
+    public class _60GunOncedenRezervasyon
     {
     }
 }

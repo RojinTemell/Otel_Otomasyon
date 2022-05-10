@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Veri_tabanı_proje
 {
-    internal class IRezervasyonTipi
+    public class IRezervasyonTipi
     {
+        public DateTime GirisTarihi { get; set; }
+        public DateTime CikisTarihi { get; set; }
+        public Musteri Ad { get; set; }
+        public Musteri Soyad { get; set; }
+        public Musteri TelefonNo { get; set; }
     }
 }

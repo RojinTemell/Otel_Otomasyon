@@ -10,6 +10,8 @@ namespace Veri_tabanı_proje
     {
         public string Ad { get; private set; }
         public string Soyad { get; private set; }
+
+        public int TelefonNO { get; set; }
         public string Mail { get { return mail; } set { mail = value; } }
         private string mail;
         public short CVV { get { return cvv; } set { cvv = value; } }
