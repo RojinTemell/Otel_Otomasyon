@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Veri_tabanı_proje
 {
-    public class IRezervasyonTipi
+    public abstract class RezervasyonTipi
     {
         public DateTime GirisTarihi { get; set; }
         public DateTime CikisTarihi { get; set; }

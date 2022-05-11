@@ -10,9 +10,9 @@ namespace Veri_tabanı_proje
     {
         public string Ad { get;private set; }
         public string Soyad { get; private set; }
-        public string Sifre { get { return sifre; } set { Sifre = value; } }
+        public string Sifre { get { return sifre; } set { sifre = value; } }
         private string sifre;
-        public string Mail { get { return mail; } set { Sifre = mail; } }
+        public string Mail { get { return mail; } set { mail = value; } }
         private string mail;
 
         private List<Musteri> musteri;
@@ -24,14 +24,6 @@ namespace Veri_tabanı_proje
 
         }
 
-        public List<Musteri> MusterileriListele()
-        {
-            return musteri;
-        }
-
-        public List<Calisan> CalisanlariListele()
-        {
-            return calisan;
-        }
+       
     }
 }
