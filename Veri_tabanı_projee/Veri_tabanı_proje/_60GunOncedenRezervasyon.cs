@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Veri_tabanı_proje
 {
-    public class _60GunOncedenRezervasyon
+    public class _60GunOncedenRezervasyon:RezervasyonTipi
     {
+
     }
 }

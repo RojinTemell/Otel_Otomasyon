@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Veri_tabanı_proje
 {
-    internal class OnOdemeliRezervasyon
+    public class OnOdemeliRezervasyon : RezervasyonTipi
     {
     }
 }

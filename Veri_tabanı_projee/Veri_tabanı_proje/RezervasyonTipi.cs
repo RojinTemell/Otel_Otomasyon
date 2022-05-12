@@ -12,9 +12,8 @@ namespace Veri_tabanı_proje
         public DateTime CikisTarihi { get; set; }
         public Musteri Ad { get; set; }
         public Musteri Soyad { get; set; }
-        public Musteri TelefonNo { get; set; }
         public Musteri Mail { get; set; }
-
+        public Musteri TelefonNo { get; set; }
         public RezervasyonTipi()
         {
 

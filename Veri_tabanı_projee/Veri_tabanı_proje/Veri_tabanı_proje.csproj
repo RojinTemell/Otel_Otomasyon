@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Calisan.cs" />
     <Compile Include="Musteri.cs" />
+    <Compile Include="RezervasyonTipi.cs" />
     <Compile Include="StandartRezervasyon.cs" />
     <Compile Include="TesvikRezervasyon.cs" />
     <Compile Include="Yonetici.cs" />
@@ -58,7 +59,6 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="IRezervasyonTipi.cs" />
     <Compile Include="OnOdemeliRezervasyon.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Veri_tabanı_proje
 {
-    public class TesvikRezervasyon
+    public class TesvikRezervasyon:RezervasyonTipi
     {
 
     }
