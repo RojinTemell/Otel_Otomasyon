@@ -13,5 +13,11 @@ namespace Veri_tabanı_proje
         public Musteri Ad { get; set; }
         public Musteri Soyad { get; set; }
         public Musteri TelefonNo { get; set; }
+        public Musteri Mail { get; set; }
+
+        public RezervasyonTipi()
+        {
+
+        }
     }
 }
