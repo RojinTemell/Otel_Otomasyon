@@ -44,12 +44,21 @@ namespace Veri_tabanı_proje
 
         private void btn_yoneticiGirisi_Click_1(object sender, EventArgs e)
         {
+           
+        }
+
+        private void btn_rezervasyon_yap_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void btn_yoneticiGirisi_Click_2(object sender, EventArgs e)
+        {
             Yönetici_giris yonetici_giris = new Yönetici_giris();
             yonetici_giris.Show();
             this.Hide();
         }
 
-        private void btn_rezervasyon_yap_Click(object sender, EventArgs e)
+        private void btn_rezervasyon_yap_Click_1(object sender, EventArgs e)
         {
             RezervasyonYap_ekran rezervasyonYap = new RezervasyonYap_ekran();
             rezervasyonYap.Show();

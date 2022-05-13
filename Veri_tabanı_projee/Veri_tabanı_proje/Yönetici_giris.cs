@@ -19,36 +19,22 @@ namespace Veri_tabanı_proje
 
         private void btn_yoneticiGiris_Click(object sender, EventArgs e)
         {
-            if(txtbox_yoneticiMail.Text=="" || txtbox_yoneticiSifre.Text=="")
-            {
-                MessageBox.Show("Lütfen alanları doldurunuz!");
-            }
-            else if((txtbox_yoneticiMail.Text== "reyyan@gmail.com") && (txtbox_yoneticiSifre.Text=="reyyan"))
-            {
-                MessageBox.Show("Başarıyla giriş yaptınız!");
-                Yonetici_Ekran yonetici_ekran = new Yonetici_Ekran();
-                yonetici_ekran.Show();
-                this.Hide();
-            }
-            else if ((txtbox_yoneticiMail.Text == "sena@gmail.com") && (txtbox_yoneticiSifre.Text == "sena"))
-            {
-                MessageBox.Show("Başarıyla giriş yaptınız!");
-                Yonetici_Ekran yonetici_ekran = new Yonetici_Ekran();
-                yonetici_ekran.Show();
-                this.Hide();
-            }
-            else if ((txtbox_yoneticiMail.Text == "rojin@gmail.com") && (txtbox_yoneticiSifre.Text == "rojin"))
-            {
-                MessageBox.Show("Başarıyla giriş yaptınız!");
-                Yonetici_Ekran yonetici_ekran = new Yonetici_Ekran();
-                yonetici_ekran.Show();
-                this.Hide();
-            }
-            else
-            {
-                MessageBox.Show("Lütfen bilgileri doğru giriniz!");
-            }
+            
         }
-        
+
+        private void label1_MouseMove(object sender, MouseEventArgs e)
+        {
+            label2.Visible = true;
+        }
+
+        private void Yönetici_giris_Load(object sender, EventArgs e)
+        {
+            label2.Visible = false;
+        }
+
+        private void btn_girisYap_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
