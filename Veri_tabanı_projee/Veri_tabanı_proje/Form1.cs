@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Veri_tabanı_proje
 {
-    public partial class form_anaEkran : Form
+    public partial class Form1 : Form
     {
-        public form_anaEkran()
+        public Form1()
         {
             InitializeComponent();
         }
@@ -63,6 +63,11 @@ namespace Veri_tabanı_proje
             RezervasyonYap_ekran rezervasyonYap = new RezervasyonYap_ekran();
             rezervasyonYap.Show();
             this.Hide();
+        }
+
+        private void bunifuThinButton21_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

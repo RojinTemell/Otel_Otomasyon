@@ -53,6 +53,12 @@
     <Compile Include="Calisan.cs" />
     <Compile Include="Musteri.cs" />
     <Compile Include="RezervasyonTipi.cs" />
+    <Compile Include="Sifremi_unuttum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sifremi_unuttum.Designer.cs">
+      <DependentUpon>Sifremi_unuttum.cs</DependentUpon>
+    </Compile>
     <Compile Include="StandartRezervasyon.cs" />
     <Compile Include="TesvikRezervasyon.cs" />
     <Compile Include="Yonetici.cs" />
@@ -100,6 +106,9 @@
     </Compile>
     <EmbeddedResource Include="RezervasyonYap_ekran.resx">
       <DependentUpon>RezervasyonYap_ekran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sifremi_unuttum.resx">
+      <DependentUpon>Sifremi_unuttum.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Yonetici_Ekran.resx">
       <DependentUpon>Yonetici_Ekran.cs</DependentUpon>

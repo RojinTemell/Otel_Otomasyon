@@ -64,5 +64,17 @@ namespace Veri_tabanı_proje
             calisanVerileriGoster();
             musteriVerileriGoster();
         }
+
+        private void btn_geriDon_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 anaForm = new Form1();
+            anaForm.Show();
+            this.Hide();
+        }
     }
 }

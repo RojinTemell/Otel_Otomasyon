@@ -45,48 +45,49 @@ namespace Veri_tabanı_proje
             this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.btn_geriDon = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(24, 29);
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(39, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(180, 22);
+            this.label1.Size = new System.Drawing.Size(170, 23);
             this.label1.TabIndex = 3;
             this.label1.Text = "Odalar Veri Tabanı";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(663, 29);
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(602, 32);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(210, 22);
+            this.label2.Size = new System.Drawing.Size(196, 23);
             this.label2.TabIndex = 4;
             this.label2.Text = "Çalışanlar Veri Tabanı";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(664, 459);
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(602, 377);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(208, 22);
+            this.label3.Size = new System.Drawing.Size(201, 23);
             this.label3.TabIndex = 5;
             this.label3.Text = "Müşteriler Veri Tabanı";
             // 
             // listView1
             // 
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(14, 56);
-            this.listView1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.listView1.Location = new System.Drawing.Point(39, 59);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(618, 793);
+            this.listView1.Size = new System.Drawing.Size(550, 635);
             this.listView1.TabIndex = 6;
             this.listView1.UseCompatibleStateImageBehavior = false;
             // 
@@ -98,10 +99,9 @@ namespace Veri_tabanı_proje
             this.columnHeader3});
             this.listView_calisan.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.listView_calisan.HideSelection = false;
-            this.listView_calisan.Location = new System.Drawing.Point(651, 56);
-            this.listView_calisan.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.listView_calisan.Location = new System.Drawing.Point(606, 59);
             this.listView_calisan.Name = "listView_calisan";
-            this.listView_calisan.Size = new System.Drawing.Size(694, 363);
+            this.listView_calisan.Size = new System.Drawing.Size(617, 291);
             this.listView_calisan.TabIndex = 7;
             this.listView_calisan.UseCompatibleStateImageBehavior = false;
             this.listView_calisan.View = System.Windows.Forms.View.Details;
@@ -132,10 +132,9 @@ namespace Veri_tabanı_proje
             this.columnHeader9});
             this.listView_musteri.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.listView_musteri.HideSelection = false;
-            this.listView_musteri.Location = new System.Drawing.Point(651, 486);
-            this.listView_musteri.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.listView_musteri.Location = new System.Drawing.Point(606, 403);
             this.listView_musteri.Name = "listView_musteri";
-            this.listView_musteri.Size = new System.Drawing.Size(694, 363);
+            this.listView_musteri.Size = new System.Drawing.Size(617, 291);
             this.listView_musteri.TabIndex = 8;
             this.listView_musteri.UseCompatibleStateImageBehavior = false;
             this.listView_musteri.View = System.Windows.Forms.View.Details;
@@ -170,13 +169,42 @@ namespace Veri_tabanı_proje
             this.columnHeader9.Text = "Rezervasyon ID";
             this.columnHeader9.Width = 156;
             // 
+            // btn_geriDon
+            // 
+            this.btn_geriDon.BackColor = System.Drawing.Color.Purple;
+            this.btn_geriDon.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_geriDon.ForeColor = System.Drawing.Color.White;
+            this.btn_geriDon.Location = new System.Drawing.Point(694, 725);
+            this.btn_geriDon.Name = "btn_geriDon";
+            this.btn_geriDon.Size = new System.Drawing.Size(161, 49);
+            this.btn_geriDon.TabIndex = 9;
+            this.btn_geriDon.Text = "ÇIKIŞ YAP";
+            this.btn_geriDon.UseVisualStyleBackColor = false;
+            this.btn_geriDon.Click += new System.EventHandler(this.btn_geriDon_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Purple;
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(405, 725);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(236, 49);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "ANA MENÜYE DÖN";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Yonetici_Ekran
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.AutoScroll = true;
+            this.BackColor = System.Drawing.Color.SlateBlue;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1405, 888);
+            this.ClientSize = new System.Drawing.Size(1249, 786);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_geriDon);
             this.Controls.Add(this.listView_musteri);
             this.Controls.Add(this.listView_calisan);
             this.Controls.Add(this.listView1);
@@ -187,8 +215,8 @@ namespace Veri_tabanı_proje
             this.ForeColor = System.Drawing.SystemColors.Control;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Yonetici_Ekran";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Yonetici_Ekran";
             this.Load += new System.EventHandler(this.Yonetici_Ekran_Load);
             this.ResumeLayout(false);
@@ -212,5 +240,7 @@ namespace Veri_tabanı_proje
         private System.Windows.Forms.ColumnHeader columnHeader7;
         private System.Windows.Forms.ColumnHeader columnHeader8;
         private System.Windows.Forms.ColumnHeader columnHeader9;
+        private System.Windows.Forms.Button btn_geriDon;
+        private System.Windows.Forms.Button button1;
     }
 }

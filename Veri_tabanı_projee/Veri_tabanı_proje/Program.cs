@@ -16,7 +16,7 @@ namespace Veri_tabanı_proje
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new form_anaEkran());
+            Application.Run(new Form1());
         }
     }
 }

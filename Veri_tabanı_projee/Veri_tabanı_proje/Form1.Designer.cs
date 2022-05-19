@@ -1,7 +1,7 @@
 ﻿
 namespace Veri_tabanı_proje
 {
-    partial class form_anaEkran
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -29,11 +29,12 @@ namespace Veri_tabanı_proje
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(form_anaEkran));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.bunifuGradientPanel1 = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btn_rezervasyon_yap = new Bunifu.Framework.UI.BunifuThinButton2();
             this.btn_yoneticiGirisi = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.bunifuGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -82,7 +83,7 @@ namespace Veri_tabanı_proje
             this.btn_rezervasyon_yap.IdleFillColor = System.Drawing.Color.Transparent;
             this.btn_rezervasyon_yap.IdleForecolor = System.Drawing.Color.Black;
             this.btn_rezervasyon_yap.IdleLineColor = System.Drawing.Color.Black;
-            this.btn_rezervasyon_yap.Location = new System.Drawing.Point(680, 345);
+            this.btn_rezervasyon_yap.Location = new System.Drawing.Point(680, 276);
             this.btn_rezervasyon_yap.Margin = new System.Windows.Forms.Padding(5);
             this.btn_rezervasyon_yap.Name = "btn_rezervasyon_yap";
             this.btn_rezervasyon_yap.Size = new System.Drawing.Size(212, 73);
@@ -108,7 +109,7 @@ namespace Veri_tabanı_proje
             this.btn_yoneticiGirisi.IdleFillColor = System.Drawing.Color.Transparent;
             this.btn_yoneticiGirisi.IdleForecolor = System.Drawing.Color.Black;
             this.btn_yoneticiGirisi.IdleLineColor = System.Drawing.Color.Black;
-            this.btn_yoneticiGirisi.Location = new System.Drawing.Point(680, 192);
+            this.btn_yoneticiGirisi.Location = new System.Drawing.Point(680, 123);
             this.btn_yoneticiGirisi.Margin = new System.Windows.Forms.Padding(5);
             this.btn_yoneticiGirisi.Name = "btn_yoneticiGirisi";
             this.btn_yoneticiGirisi.Size = new System.Drawing.Size(212, 69);
@@ -116,13 +117,40 @@ namespace Veri_tabanı_proje
             this.btn_yoneticiGirisi.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_yoneticiGirisi.Click += new System.EventHandler(this.btn_yoneticiGirisi_Click_2);
             // 
-            // form_anaEkran
+            // bunifuThinButton21
+            // 
+            this.bunifuThinButton21.ActiveBorderThickness = 1;
+            this.bunifuThinButton21.ActiveCornerRadius = 20;
+            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.SandyBrown;
+            this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.Transparent;
+            this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.SandyBrown;
+            this.bunifuThinButton21.BackColor = System.Drawing.Color.Bisque;
+            this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
+            this.bunifuThinButton21.ButtonText = "Çıkış Yap";
+            this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton21.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton21.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.bunifuThinButton21.IdleBorderThickness = 1;
+            this.bunifuThinButton21.IdleCornerRadius = 20;
+            this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.Transparent;
+            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.Black;
+            this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.Black;
+            this.bunifuThinButton21.Location = new System.Drawing.Point(680, 423);
+            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuThinButton21.Name = "bunifuThinButton21";
+            this.bunifuThinButton21.Size = new System.Drawing.Size(212, 73);
+            this.bunifuThinButton21.TabIndex = 54;
+            this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuThinButton21.Click += new System.EventHandler(this.bunifuThinButton21_Click);
+            // 
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Bisque;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(920, 593);
+            this.Controls.Add(this.bunifuThinButton21);
             this.Controls.Add(this.btn_rezervasyon_yap);
             this.Controls.Add(this.btn_yoneticiGirisi);
             this.Controls.Add(this.bunifuGradientPanel1);
@@ -130,7 +158,7 @@ namespace Veri_tabanı_proje
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "form_anaEkran";
+            this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Otel Rezervasyon";
             this.bunifuGradientPanel1.ResumeLayout(false);
@@ -144,6 +172,7 @@ namespace Veri_tabanı_proje
         private System.Windows.Forms.PictureBox pictureBox1;
         private Bunifu.Framework.UI.BunifuThinButton2 btn_rezervasyon_yap;
         private Bunifu.Framework.UI.BunifuThinButton2 btn_yoneticiGirisi;
+        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton21;
     }
 }
 
