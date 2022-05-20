@@ -17,7 +17,8 @@ namespace Veri_tabanı_proje
         {
             InitializeComponent();
         }
-        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-52OSE7G;Initial Catalog=otel_rezervasyon;Integrated Security=True");
+        SqlConnection baglanti = new SqlConnection(@"Data Source=DESKTOP-56SRHAG;Initial Catalog=otel_rezervasyon;Integrated Security=True");
+       // sena  SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-52OSE7G;Initial Catalog=otel_rezervasyon;Integrated Security=True");
         private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
         {
             label1.Visible = true;
@@ -76,6 +77,11 @@ namespace Veri_tabanı_proje
             Form1 anaForm = new Form1();
             anaForm.Show();
             this.Hide();
+        }
+
+        private void bunifuGradientPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

@@ -17,8 +17,8 @@ namespace Veri_tabanı_proje
         {
             InitializeComponent();
         }
-
-        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-52OSE7G;Initial Catalog=otel_rezervasyon;Integrated Security=True");
+        SqlConnection baglanti = new SqlConnection(@"Data Source=DESKTOP-56SRHAG;Initial Catalog=otel_rezervasyon;Integrated Security=True");
+       // sena SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-52OSE7G;Initial Catalog=otel_rezervasyon;Integrated Security=True");
         private void btn_yoneticiGiris_Click(object sender, EventArgs e)
         {
             
@@ -39,9 +39,9 @@ namespace Veri_tabanı_proje
             try
             {
                 baglanti.Open();
-                string sql = "select * from tblYoneticiler where Yonetici_eposta=@sadi AND Yonetici_sifre=@ssifre";
-                SqlParameter prm1 = new SqlParameter("sadi", txt_kullanici_adi.Text.Trim());
-                SqlParameter prm2 = new SqlParameter("ssifre", txt_sifre.Text.Trim());
+                string sql = "select Yonetici_mail,Yonetici_sifre from tblYoneticiler where Yonetici_mail=@ymail AND Yonetici_sifre=@ysifre";
+                SqlParameter prm1 = new SqlParameter("ymail", txt_kullanici_adi.Text.Trim());
+                SqlParameter prm2 = new SqlParameter("ysifre", txt_sifre.Text.Trim());
                 SqlCommand komut = new SqlCommand(sql, baglanti);
                 komut.Parameters.Add(prm1);
                 komut.Parameters.Add(prm2);

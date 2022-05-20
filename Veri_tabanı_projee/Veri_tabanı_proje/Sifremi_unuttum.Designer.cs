@@ -62,9 +62,10 @@ namespace Veri_tabanı_proje
             this.bunifuGradientPanel2.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.bunifuGradientPanel2.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(23)))), ((int)(((byte)(65)))));
             this.bunifuGradientPanel2.Location = new System.Drawing.Point(0, 0);
+            this.bunifuGradientPanel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuGradientPanel2.Name = "bunifuGradientPanel2";
             this.bunifuGradientPanel2.Quality = 10;
-            this.bunifuGradientPanel2.Size = new System.Drawing.Size(200, 590);
+            this.bunifuGradientPanel2.Size = new System.Drawing.Size(150, 479);
             this.bunifuGradientPanel2.TabIndex = 1;
             // 
             // bunifuGradientPanel1
@@ -76,18 +77,21 @@ namespace Veri_tabanı_proje
             this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(23)))), ((int)(((byte)(65)))));
             this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.bunifuGradientPanel1.Location = new System.Drawing.Point(600, 0);
+            this.bunifuGradientPanel1.Location = new System.Drawing.Point(450, 0);
+            this.bunifuGradientPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
             this.bunifuGradientPanel1.Quality = 10;
-            this.bunifuGradientPanel1.Size = new System.Drawing.Size(200, 590);
+            this.bunifuGradientPanel1.Size = new System.Drawing.Size(150, 479);
             this.bunifuGradientPanel1.TabIndex = 2;
+            this.bunifuGradientPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.bunifuGradientPanel1_Paint);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(352, 35);
+            this.pictureBox1.Location = new System.Drawing.Point(264, 28);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(98, 114);
+            this.pictureBox1.Size = new System.Drawing.Size(74, 93);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
@@ -105,10 +109,9 @@ namespace Veri_tabanı_proje
             this.txtbox_sifre.LineIdleColor = System.Drawing.Color.Gray;
             this.txtbox_sifre.LineMouseHoverColor = System.Drawing.Color.DimGray;
             this.txtbox_sifre.LineThickness = 3;
-            this.txtbox_sifre.Location = new System.Drawing.Point(305, 270);
-            this.txtbox_sifre.Margin = new System.Windows.Forms.Padding(4);
+            this.txtbox_sifre.Location = new System.Drawing.Point(229, 219);
             this.txtbox_sifre.Name = "txtbox_sifre";
-            this.txtbox_sifre.Size = new System.Drawing.Size(200, 44);
+            this.txtbox_sifre.Size = new System.Drawing.Size(150, 36);
             this.txtbox_sifre.TabIndex = 5;
             this.txtbox_sifre.Text = "Şifre";
             this.txtbox_sifre.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -125,10 +128,9 @@ namespace Veri_tabanı_proje
             this.txtbox_kullanici_adi.LineIdleColor = System.Drawing.Color.Gray;
             this.txtbox_kullanici_adi.LineMouseHoverColor = System.Drawing.Color.DimGray;
             this.txtbox_kullanici_adi.LineThickness = 3;
-            this.txtbox_kullanici_adi.Location = new System.Drawing.Point(305, 202);
-            this.txtbox_kullanici_adi.Margin = new System.Windows.Forms.Padding(4);
+            this.txtbox_kullanici_adi.Location = new System.Drawing.Point(229, 164);
             this.txtbox_kullanici_adi.Name = "txtbox_kullanici_adi";
-            this.txtbox_kullanici_adi.Size = new System.Drawing.Size(200, 44);
+            this.txtbox_kullanici_adi.Size = new System.Drawing.Size(150, 36);
             this.txtbox_kullanici_adi.TabIndex = 4;
             this.txtbox_kullanici_adi.Text = "Kullanıcı Adı";
             this.txtbox_kullanici_adi.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -145,10 +147,9 @@ namespace Veri_tabanı_proje
             this.txtbox_sifreTekrar.LineIdleColor = System.Drawing.Color.Gray;
             this.txtbox_sifreTekrar.LineMouseHoverColor = System.Drawing.Color.DimGray;
             this.txtbox_sifreTekrar.LineThickness = 3;
-            this.txtbox_sifreTekrar.Location = new System.Drawing.Point(305, 341);
-            this.txtbox_sifreTekrar.Margin = new System.Windows.Forms.Padding(4);
+            this.txtbox_sifreTekrar.Location = new System.Drawing.Point(229, 277);
             this.txtbox_sifreTekrar.Name = "txtbox_sifreTekrar";
-            this.txtbox_sifreTekrar.Size = new System.Drawing.Size(200, 44);
+            this.txtbox_sifreTekrar.Size = new System.Drawing.Size(150, 36);
             this.txtbox_sifreTekrar.TabIndex = 6;
             this.txtbox_sifreTekrar.Text = "Şifre";
             this.txtbox_sifreTekrar.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -171,10 +172,10 @@ namespace Veri_tabanı_proje
             this.btn_sifDegis.IdleFillColor = System.Drawing.Color.Transparent;
             this.btn_sifDegis.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btn_sifDegis.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btn_sifDegis.Location = new System.Drawing.Point(292, 427);
-            this.btn_sifDegis.Margin = new System.Windows.Forms.Padding(5);
+            this.btn_sifDegis.Location = new System.Drawing.Point(219, 347);
+            this.btn_sifDegis.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_sifDegis.Name = "btn_sifDegis";
-            this.btn_sifDegis.Size = new System.Drawing.Size(222, 46);
+            this.btn_sifDegis.Size = new System.Drawing.Size(166, 37);
             this.btn_sifDegis.TabIndex = 7;
             this.btn_sifDegis.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_sifDegis.Click += new System.EventHandler(this.btn_girisYap_Click);
@@ -184,9 +185,10 @@ namespace Veri_tabanı_proje
             this.label2.BackColor = System.Drawing.Color.White;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(348, 152);
+            this.label2.Location = new System.Drawing.Point(261, 124);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(105, 1);
+            this.label2.Size = new System.Drawing.Size(79, 1);
             this.label2.TabIndex = 8;
             this.label2.Visible = false;
             // 
@@ -195,9 +197,10 @@ namespace Veri_tabanı_proje
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(349, 29);
+            this.label1.Location = new System.Drawing.Point(262, 24);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(105, 1);
+            this.label1.Size = new System.Drawing.Size(79, 1);
             this.label1.TabIndex = 9;
             this.label1.Visible = false;
             // 
@@ -206,9 +209,10 @@ namespace Veri_tabanı_proje
             this.label3.BackColor = System.Drawing.Color.White;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(456, 34);
+            this.label3.Location = new System.Drawing.Point(342, 28);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(1, 115);
+            this.label3.Size = new System.Drawing.Size(1, 93);
             this.label3.TabIndex = 10;
             this.label3.Visible = false;
             // 
@@ -217,9 +221,10 @@ namespace Veri_tabanı_proje
             this.label4.BackColor = System.Drawing.Color.White;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(345, 34);
+            this.label4.Location = new System.Drawing.Point(259, 28);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(1, 115);
+            this.label4.Size = new System.Drawing.Size(1, 93);
             this.label4.TabIndex = 11;
             this.label4.Visible = false;
             // 
@@ -241,20 +246,20 @@ namespace Veri_tabanı_proje
             this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.Transparent;
             this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuThinButton21.Location = new System.Drawing.Point(292, 507);
-            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuThinButton21.Location = new System.Drawing.Point(219, 412);
+            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuThinButton21.Name = "bunifuThinButton21";
-            this.bunifuThinButton21.Size = new System.Drawing.Size(222, 46);
+            this.bunifuThinButton21.Size = new System.Drawing.Size(166, 37);
             this.bunifuThinButton21.TabIndex = 12;
             this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuThinButton21.Click += new System.EventHandler(this.bunifuThinButton21_Click);
             // 
             // Sifremi_unuttum
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
-            this.ClientSize = new System.Drawing.Size(800, 590);
+            this.ClientSize = new System.Drawing.Size(600, 479);
             this.Controls.Add(this.bunifuThinButton21);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -268,6 +273,7 @@ namespace Veri_tabanı_proje
             this.Controls.Add(this.bunifuGradientPanel1);
             this.Controls.Add(this.bunifuGradientPanel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Sifremi_unuttum";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sifremi_unuttum";
