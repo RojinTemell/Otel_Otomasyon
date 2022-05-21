@@ -123,8 +123,8 @@ namespace Veri_tabanı_proje
             this.linkLabel_sifremiUnuttum.AutoSize = true;
             this.linkLabel_sifremiUnuttum.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.linkLabel_sifremiUnuttum.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.linkLabel_sifremiUnuttum.LinkColor = System.Drawing.Color.FloralWhite;
-            this.linkLabel_sifremiUnuttum.Location = new System.Drawing.Point(733, 383);
+            this.linkLabel_sifremiUnuttum.LinkColor = System.Drawing.SystemColors.Highlight;
+            this.linkLabel_sifremiUnuttum.Location = new System.Drawing.Point(733, 376);
             this.linkLabel_sifremiUnuttum.Name = "linkLabel_sifremiUnuttum";
             this.linkLabel_sifremiUnuttum.Size = new System.Drawing.Size(126, 20);
             this.linkLabel_sifremiUnuttum.TabIndex = 11;

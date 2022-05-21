@@ -53,6 +53,7 @@ namespace Veri_tabanı_proje
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
+            this.bunifuThinButton22 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.bunifuGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -70,7 +71,7 @@ namespace Veri_tabanı_proje
             this.bunifuGradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
             this.bunifuGradientPanel1.Quality = 10;
-            this.bunifuGradientPanel1.Size = new System.Drawing.Size(587, 717);
+            this.bunifuGradientPanel1.Size = new System.Drawing.Size(635, 739);
             this.bunifuGradientPanel1.TabIndex = 7;
             // 
             // pictureBox1
@@ -78,7 +79,7 @@ namespace Veri_tabanı_proje
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(24, 92);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(548, 523);
+            this.pictureBox1.Size = new System.Drawing.Size(590, 546);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
@@ -106,12 +107,13 @@ namespace Veri_tabanı_proje
             this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.White;
             this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.SaddleBrown;
             this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.Maroon;
-            this.bunifuThinButton21.Location = new System.Drawing.Point(715, 662);
+            this.bunifuThinButton21.Location = new System.Drawing.Point(922, 663);
             this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5);
             this.bunifuThinButton21.Name = "bunifuThinButton21";
-            this.bunifuThinButton21.Size = new System.Drawing.Size(181, 41);
+            this.bunifuThinButton21.Size = new System.Drawing.Size(198, 55);
             this.bunifuThinButton21.TabIndex = 68;
             this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuThinButton21.Click += new System.EventHandler(this.bunifuThinButton21_Click);
             // 
             // label3
             // 
@@ -119,7 +121,7 @@ namespace Veri_tabanı_proje
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.ForeColor = System.Drawing.Color.Brown;
-            this.label3.Location = new System.Drawing.Point(686, 415);
+            this.label3.Location = new System.Drawing.Point(757, 416);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(276, 25);
             this.label3.TabIndex = 67;
@@ -131,7 +133,7 @@ namespace Veri_tabanı_proje
             this.radioButton1.BackColor = System.Drawing.Color.Transparent;
             this.radioButton1.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.radioButton1.ForeColor = System.Drawing.Color.Black;
-            this.radioButton1.Location = new System.Drawing.Point(715, 607);
+            this.radioButton1.Location = new System.Drawing.Point(786, 608);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(171, 23);
             this.radioButton1.TabIndex = 66;
@@ -145,7 +147,7 @@ namespace Veri_tabanı_proje
             this.radioButton2.BackColor = System.Drawing.Color.Transparent;
             this.radioButton2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.radioButton2.ForeColor = System.Drawing.Color.Black;
-            this.radioButton2.Location = new System.Drawing.Point(715, 557);
+            this.radioButton2.Location = new System.Drawing.Point(786, 558);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(188, 23);
             this.radioButton2.TabIndex = 65;
@@ -159,7 +161,7 @@ namespace Veri_tabanı_proje
             this.radioButton3.BackColor = System.Drawing.Color.Transparent;
             this.radioButton3.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.radioButton3.ForeColor = System.Drawing.Color.Black;
-            this.radioButton3.Location = new System.Drawing.Point(715, 506);
+            this.radioButton3.Location = new System.Drawing.Point(786, 507);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(247, 23);
             this.radioButton3.TabIndex = 64;
@@ -173,7 +175,7 @@ namespace Veri_tabanı_proje
             this.radioButton4.BackColor = System.Drawing.Color.Transparent;
             this.radioButton4.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.radioButton4.ForeColor = System.Drawing.Color.Black;
-            this.radioButton4.Location = new System.Drawing.Point(715, 458);
+            this.radioButton4.Location = new System.Drawing.Point(786, 459);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(215, 23);
             this.radioButton4.TabIndex = 63;
@@ -183,42 +185,42 @@ namespace Veri_tabanı_proje
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(806, 349);
+            this.textBox1.Location = new System.Drawing.Point(877, 350);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(153, 22);
             this.textBox1.TabIndex = 62;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(806, 291);
+            this.textBox2.Location = new System.Drawing.Point(877, 292);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(153, 22);
             this.textBox2.TabIndex = 61;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(806, 237);
+            this.textBox3.Location = new System.Drawing.Point(877, 238);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(153, 22);
             this.textBox3.TabIndex = 60;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(806, 187);
+            this.textBox4.Location = new System.Drawing.Point(877, 188);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(153, 22);
             this.textBox4.TabIndex = 59;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(806, 129);
+            this.textBox5.Location = new System.Drawing.Point(877, 130);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(153, 22);
             this.textBox5.TabIndex = 58;
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(806, 73);
+            this.textBox6.Location = new System.Drawing.Point(877, 74);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(153, 22);
             this.textBox6.TabIndex = 57;
@@ -229,7 +231,7 @@ namespace Veri_tabanı_proje
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(676, 349);
+            this.label10.Location = new System.Drawing.Point(747, 350);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(78, 22);
             this.label10.TabIndex = 56;
@@ -241,7 +243,7 @@ namespace Veri_tabanı_proje
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label11.ForeColor = System.Drawing.Color.Black;
-            this.label11.Location = new System.Drawing.Point(676, 291);
+            this.label11.Location = new System.Drawing.Point(747, 292);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(75, 22);
             this.label11.TabIndex = 55;
@@ -253,7 +255,7 @@ namespace Veri_tabanı_proje
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label12.ForeColor = System.Drawing.Color.Black;
-            this.label12.Location = new System.Drawing.Point(676, 237);
+            this.label12.Location = new System.Drawing.Point(747, 238);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(65, 22);
             this.label12.TabIndex = 54;
@@ -265,7 +267,7 @@ namespace Veri_tabanı_proje
             this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label13.ForeColor = System.Drawing.Color.Black;
-            this.label13.Location = new System.Drawing.Point(676, 186);
+            this.label13.Location = new System.Drawing.Point(747, 187);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(38, 22);
             this.label13.TabIndex = 53;
@@ -277,7 +279,7 @@ namespace Veri_tabanı_proje
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label14.ForeColor = System.Drawing.Color.Black;
-            this.label14.Location = new System.Drawing.Point(676, 129);
+            this.label14.Location = new System.Drawing.Point(747, 130);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(112, 22);
             this.label14.TabIndex = 52;
@@ -289,7 +291,7 @@ namespace Veri_tabanı_proje
             this.label15.BackColor = System.Drawing.Color.Transparent;
             this.label15.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label15.ForeColor = System.Drawing.Color.Black;
-            this.label15.Location = new System.Drawing.Point(676, 72);
+            this.label15.Location = new System.Drawing.Point(747, 73);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(110, 22);
             this.label15.TabIndex = 51;
@@ -301,11 +303,37 @@ namespace Veri_tabanı_proje
             this.label16.BackColor = System.Drawing.Color.Transparent;
             this.label16.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label16.ForeColor = System.Drawing.Color.Brown;
-            this.label16.Location = new System.Drawing.Point(686, 19);
+            this.label16.Location = new System.Drawing.Point(757, 20);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(284, 29);
             this.label16.TabIndex = 50;
             this.label16.Text = "Hemen Rezervasyon Yap!";
+            // 
+            // bunifuThinButton22
+            // 
+            this.bunifuThinButton22.ActiveBorderThickness = 1;
+            this.bunifuThinButton22.ActiveCornerRadius = 20;
+            this.bunifuThinButton22.ActiveFillColor = System.Drawing.Color.SandyBrown;
+            this.bunifuThinButton22.ActiveForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton22.ActiveLineColor = System.Drawing.Color.SandyBrown;
+            this.bunifuThinButton22.BackColor = System.Drawing.Color.FloralWhite;
+            this.bunifuThinButton22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton22.BackgroundImage")));
+            this.bunifuThinButton22.ButtonText = "Ana Menüye Dön";
+            this.bunifuThinButton22.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton22.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton22.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.bunifuThinButton22.IdleBorderThickness = 1;
+            this.bunifuThinButton22.IdleCornerRadius = 20;
+            this.bunifuThinButton22.IdleFillColor = System.Drawing.Color.White;
+            this.bunifuThinButton22.IdleForecolor = System.Drawing.Color.SaddleBrown;
+            this.bunifuThinButton22.IdleLineColor = System.Drawing.Color.Maroon;
+            this.bunifuThinButton22.Location = new System.Drawing.Point(687, 663);
+            this.bunifuThinButton22.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuThinButton22.Name = "bunifuThinButton22";
+            this.bunifuThinButton22.Size = new System.Drawing.Size(209, 55);
+            this.bunifuThinButton22.TabIndex = 69;
+            this.bunifuThinButton22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuThinButton22.Click += new System.EventHandler(this.bunifuThinButton22_Click);
             // 
             // RezervasyonYap_ekran
             // 
@@ -313,7 +341,8 @@ namespace Veri_tabanı_proje
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FloralWhite;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1073, 717);
+            this.ClientSize = new System.Drawing.Size(1162, 739);
+            this.Controls.Add(this.bunifuThinButton22);
             this.Controls.Add(this.bunifuThinButton21);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.radioButton1);
@@ -336,7 +365,7 @@ namespace Veri_tabanı_proje
             this.Controls.Add(this.bunifuGradientPanel1);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.DoubleBuffered = true;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "RezervasyonYap_ekran";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RezervasyonYap_ekran";
@@ -371,5 +400,6 @@ namespace Veri_tabanı_proje
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
+        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton22;
     }
 }

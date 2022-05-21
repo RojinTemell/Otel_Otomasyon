@@ -17,8 +17,8 @@ namespace Veri_tabanı_proje
         {
             InitializeComponent();
         }
-        SqlConnection baglanti = new SqlConnection(@"Data Source=DESKTOP-56SRHAG;Initial Catalog=otel_rezervasyon;Integrated Security=True");
-       // sena SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-52OSE7G;Initial Catalog=otel_rezervasyon;Integrated Security=True");
+        //reyyan SqlConnection baglanti = new SqlConnection(@"Data Source=DESKTOP-56SRHAG;Initial Catalog=otel_rezervasyon;Integrated Security=True");
+        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-52OSE7G;Initial Catalog=otel_rezervasyon;Integrated Security=True");
 
         private void calisanVerileriGoster()
         {
@@ -31,7 +31,13 @@ namespace Veri_tabanı_proje
                 ListViewItem ekle = new ListViewItem();
                 ekle.Text = oku["calisan_id"].ToString();
                 ekle.SubItems.Add(oku["Yonetici_id"].ToString());
-                ekle.SubItems.Add(oku["calisan_tipi"].ToString());
+                ekle.SubItems.Add(oku["calisan_adi"].ToString());
+                ekle.SubItems.Add(oku["calisan_soyadi"].ToString());
+                ekle.SubItems.Add(oku["calisan_sifre"].ToString());
+                ekle.SubItems.Add(oku["calisan_maas"].ToString());
+                ekle.SubItems.Add(oku["rezervasyon_id"].ToString());
+                ekle.SubItems.Add(oku["musteri_id"].ToString());
+                ekle.SubItems.Add(oku["oda_id"].ToString());
 
                 listView_calisan.Items.Add(ekle);
             }
@@ -51,30 +57,65 @@ namespace Veri_tabanı_proje
                 ekle.SubItems.Add(oku["musteri_adi"].ToString());
                 ekle.SubItems.Add(oku["musteri_soyadi"].ToString());
                 ekle.SubItems.Add(oku["musteri_tel"].ToString());
-                ekle.SubItems.Add(oku["musteri_eposta"].ToString());
+                ekle.SubItems.Add(oku["musteri_mail"].ToString());
                 ekle.SubItems.Add(oku["rezervasyon_id"].ToString());
+                ekle.SubItems.Add(oku["kart_id"].ToString());
+                ekle.SubItems.Add(oku["oda_id"].ToString());
 
                 listView_musteri.Items.Add(ekle);
             }
             baglanti.Close();
         }
 
+        private void odaVerileriGoster()
+        {
+            baglanti.Open();
+            SqlCommand komut = new SqlCommand("Select *from tblOdalar", baglanti);
+            SqlDataReader oku = komut.ExecuteReader();
+
+            while (oku.Read())
+            {
+                ListViewItem ekle = new ListViewItem();
+                ekle.Text = oku["oda_id"].ToString();
+                ekle.SubItems.Add(oku["oda_dolu_mu"].ToString());
+                ekle.SubItems.Add(oku["oda_taban_fiyat"].ToString());
+
+                listView_oda.Items.Add(ekle);
+            }
+            baglanti.Close();
+        }
         private void Yonetici_Ekran_Load(object sender, EventArgs e)
         {
             calisanVerileriGoster();
             musteriVerileriGoster();
+            odaVerileriGoster();
         }
 
         private void btn_geriDon_Click(object sender, EventArgs e)
         {
-            this.Close();
+           
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+           
+        }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuThinButton21_Click(object sender, EventArgs e)
+        {
             Form1 anaForm = new Form1();
             anaForm.Show();
             this.Hide();
+        }
+
+        private void bunifuThinButton22_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
