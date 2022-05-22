@@ -52,6 +52,17 @@
   <ItemGroup>
     <Compile Include="Calisan.cs" />
     <Compile Include="Musteri.cs" />
+    <Compile Include="Odeme_Yap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Odeme_Yap.Designer.cs">
+      <DependentUpon>Odeme_Yap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="otel_rezervasyonDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>otel_rezervasyonDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="RezervasyonTipi.cs" />
     <Compile Include="Sifremi_unuttum.cs">
       <SubType>Form</SubType>
@@ -94,6 +105,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Odeme_Yap.resx">
+      <DependentUpon>Odeme_Yap.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -116,6 +130,17 @@
     <EmbeddedResource Include="Yönetici_giris.resx">
       <DependentUpon>Yönetici_giris.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="otel_rezervasyonDataSet.xsc">
+      <DependentUpon>otel_rezervasyonDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="otel_rezervasyonDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>otel_rezervasyonDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="otel_rezervasyonDataSet.xss">
+      <DependentUpon>otel_rezervasyonDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

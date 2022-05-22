@@ -17,8 +17,9 @@ namespace Veri_tabanı_proje
         {
             InitializeComponent();
         }
-       //reyyan SqlConnection baglanti = new SqlConnection(@"Data Source=DESKTOP-56SRHAG;Initial Catalog=otel_rezervasyon;Integrated Security=True");
-        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-52OSE7G;Initial Catalog=otel_rezervasyon;Integrated Security=True");
+        //reyyan SqlConnection baglanti = new SqlConnection(@"Data Source=DESKTOP-56SRHAG;Initial Catalog=otel_rezervasyon;Integrated Security=True");
+        // sena SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-52OSE7G;Initial Catalog=otel_rezervasyon;Integrated Security=True");
+        SqlConnection baglanti = new SqlConnection("Data Source = DESKTOP-N6SCB07; Initial Catalog = otel_rezervasyon; Integrated Security = True");
         private void btn_yoneticiGiris_Click(object sender, EventArgs e)
         {
             
@@ -36,12 +37,15 @@ namespace Veri_tabanı_proje
 
         private void btn_girisYap_Click(object sender, EventArgs e)
         {
+
+            
+                
             try
             {
                 baglanti.Open();
-                string sql = "select Yonetici_mail,Yonetici_sifre from tblYoneticiler where Yonetici_mail=@ymail AND Yonetici_sifre=@ysifre";
-                SqlParameter prm1 = new SqlParameter("ymail", txt_kullanici_adi.Text.Trim());
-                SqlParameter prm2 = new SqlParameter("ysifre", txt_sifre.Text.Trim());
+                string sql = "select * from tblYoneticiler where Yonetici_mail=@Yonetici_mail AND Yonetici_sifre=@Yonetici_sifre";
+                SqlParameter prm1 = new SqlParameter("Yonetici_mail", txt_kullanici_adi.Text.Trim());
+                SqlParameter prm2 = new SqlParameter("Yonetici_sifre", txt_sifre.Text.Trim());
                 SqlCommand komut = new SqlCommand(sql, baglanti);
                 komut.Parameters.Add(prm1);
                 komut.Parameters.Add(prm2);
@@ -50,14 +54,17 @@ namespace Veri_tabanı_proje
                 da.Fill(dt);
                 if (dt.Rows.Count > 0)
                 {
+
                     Yonetici_Ekran yoneticiEkran = new Yonetici_Ekran();
                     yoneticiEkran.Show();
                     this.Hide();
                 }
+                baglanti.Close();
+
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                MessageBox.Show("Giriş reddedildi. Lütfen tekrar deneyiniz.");
+                MessageBox.Show(ex+"Giriş reddedildi. Lütfen tekrar deneyiniz.");
 
             }
         }
@@ -74,6 +81,16 @@ namespace Veri_tabanı_proje
             Form1 anaForm = new Form1();
             anaForm.Show();
             this.Hide();
+        }
+
+        private void txt_kullanici_adi_MouseClick(object sender, MouseEventArgs e)
+        {
+            txt_kullanici_adi.Text = "";
+        }
+
+        private void txt_sifre_MouseClick(object sender, MouseEventArgs e)
+        {
+            txt_sifre.Text = "";
         }
     }
 }

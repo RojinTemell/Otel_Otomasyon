@@ -14,6 +14,7 @@ namespace Veri_tabanı_proje
         public Musteri Soyad { get; set; }
         public Musteri Mail { get; set; }
         public Musteri TelefonNo { get; set; }
+        public int Fiyat { get; set; }
         public RezervasyonTipi()
         {
 

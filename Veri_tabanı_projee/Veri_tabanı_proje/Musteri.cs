@@ -22,7 +22,8 @@ namespace Veri_tabanı_proje
         private long hesapno;
 
         public Musteri()
-        { }
+        { 
+        }
         
         
     }

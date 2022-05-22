@@ -18,7 +18,8 @@ namespace Veri_tabanı_proje
             InitializeComponent();
         }
         //reyyan SqlConnection baglanti = new SqlConnection(@"Data Source=DESKTOP-56SRHAG;Initial Catalog=otel_rezervasyon;Integrated Security=True");
-        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-52OSE7G;Initial Catalog=otel_rezervasyon;Integrated Security=True");
+        // sena SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-52OSE7G;Initial Catalog=otel_rezervasyon;Integrated Security=True");
+        SqlConnection baglanti = new SqlConnection("Data Source = DESKTOP-N6SCB07; Initial Catalog = otel_rezervasyon; Integrated Security = True");
         private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
         {
             label1.Visible = true;
@@ -46,7 +47,7 @@ namespace Veri_tabanı_proje
             if (sifre.Text == sifreTekrar.Text)
             {
                 baglanti.Open();
-                komut = new SqlCommand("select *from tblYoneticiler where Yonetici_mail= '" + kullanıcıAd.Text + "'", baglanti);
+                komut = new SqlCommand("select * from tblYoneticiler where Yonetici_mail= '" + kullanıcıAd.Text + "'", baglanti);
                 read = komut.ExecuteReader();
                 if (read.Read() == true)
                 {
@@ -82,6 +83,21 @@ namespace Veri_tabanı_proje
         private void bunifuGradientPanel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void txtbox_kullanici_adi_MouseClick(object sender, MouseEventArgs e)
+        {
+            txtbox_kullanici_adi.Text = "";
+        }
+
+        private void txtbox_sifre_MouseClick(object sender, MouseEventArgs e)
+        {
+            txtbox_sifre.Text = "";
+        }
+
+        private void txtbox_sifreTekrar_MouseClick(object sender, MouseEventArgs e)
+        {
+            txtbox_sifreTekrar.Text = "";
         }
     }
 }
