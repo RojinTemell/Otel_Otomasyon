@@ -8,6 +8,10 @@ namespace Veri_tabanı_proje
 {
     public class StandartRezervasyon:RezervasyonTipi
     {
-        
+        public override double OdemeFiyati(double TabanFiyat)
+        {
+            Fiyat = TabanFiyat;
+            return Fiyat;
+        }
     }
 }

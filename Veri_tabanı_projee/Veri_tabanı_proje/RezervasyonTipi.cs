@@ -14,10 +14,15 @@ namespace Veri_tabanı_proje
         public Musteri Soyad { get; set; }
         public Musteri Mail { get; set; }
         public Musteri TelefonNo { get; set; }
-        public int Fiyat { get; set; }
-        public RezervasyonTipi()
+        public double Fiyat { get; set; }
+        public double TabanFiyat{ get; set; }
+        public RezervasyonTipi( )
         {
 
+        }
+        public virtual double OdemeFiyati(double TabanFiyat)
+        {
+            return Fiyat;
         }
     }
 }

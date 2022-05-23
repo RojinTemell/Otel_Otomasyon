@@ -53,7 +53,6 @@ namespace Veri_tabanı_proje
             this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader13 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader14 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
@@ -65,9 +64,10 @@ namespace Veri_tabanı_proje
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(39, 32);
+            this.label1.Location = new System.Drawing.Point(29, 26);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(170, 23);
+            this.label1.Size = new System.Drawing.Size(136, 19);
             this.label1.TabIndex = 3;
             this.label1.Text = "Odalar Veri Tabanı";
             // 
@@ -76,9 +76,10 @@ namespace Veri_tabanı_proje
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(602, 32);
+            this.label2.Location = new System.Drawing.Point(452, 26);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(196, 23);
+            this.label2.Size = new System.Drawing.Size(158, 19);
             this.label2.TabIndex = 4;
             this.label2.Text = "Çalışanlar Veri Tabanı";
             // 
@@ -87,9 +88,10 @@ namespace Veri_tabanı_proje
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(602, 377);
+            this.label3.Location = new System.Drawing.Point(452, 306);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(201, 23);
+            this.label3.Size = new System.Drawing.Size(162, 19);
             this.label3.TabIndex = 5;
             this.label3.Text = "Müşteriler Veri Tabanı";
             // 
@@ -101,9 +103,10 @@ namespace Veri_tabanı_proje
             this.columnHeader20});
             this.listView_oda.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.listView_oda.HideSelection = false;
-            this.listView_oda.Location = new System.Drawing.Point(39, 59);
+            this.listView_oda.Location = new System.Drawing.Point(29, 48);
+            this.listView_oda.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.listView_oda.Name = "listView_oda";
-            this.listView_oda.Size = new System.Drawing.Size(550, 635);
+            this.listView_oda.Size = new System.Drawing.Size(414, 517);
             this.listView_oda.TabIndex = 6;
             this.listView_oda.UseCompatibleStateImageBehavior = false;
             this.listView_oda.View = System.Windows.Forms.View.Details;
@@ -138,9 +141,10 @@ namespace Veri_tabanı_proje
             this.columnHeader17});
             this.listView_calisan.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.listView_calisan.HideSelection = false;
-            this.listView_calisan.Location = new System.Drawing.Point(606, 59);
+            this.listView_calisan.Location = new System.Drawing.Point(454, 48);
+            this.listView_calisan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.listView_calisan.Name = "listView_calisan";
-            this.listView_calisan.Size = new System.Drawing.Size(617, 291);
+            this.listView_calisan.Size = new System.Drawing.Size(464, 237);
             this.listView_calisan.TabIndex = 7;
             this.listView_calisan.UseCompatibleStateImageBehavior = false;
             this.listView_calisan.View = System.Windows.Forms.View.Details;
@@ -193,14 +197,14 @@ namespace Veri_tabanı_proje
             this.columnHeader6,
             this.columnHeader7,
             this.columnHeader8,
-            this.columnHeader9,
             this.columnHeader13,
             this.columnHeader14});
             this.listView_musteri.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.listView_musteri.HideSelection = false;
-            this.listView_musteri.Location = new System.Drawing.Point(606, 403);
+            this.listView_musteri.Location = new System.Drawing.Point(454, 327);
+            this.listView_musteri.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.listView_musteri.Name = "listView_musteri";
-            this.listView_musteri.Size = new System.Drawing.Size(617, 291);
+            this.listView_musteri.Size = new System.Drawing.Size(464, 237);
             this.listView_musteri.TabIndex = 8;
             this.listView_musteri.UseCompatibleStateImageBehavior = false;
             this.listView_musteri.View = System.Windows.Forms.View.Details;
@@ -230,11 +234,6 @@ namespace Veri_tabanı_proje
             this.columnHeader8.Text = "Müşteri E-posta";
             this.columnHeader8.Width = 152;
             // 
-            // columnHeader9
-            // 
-            this.columnHeader9.Text = "Rezervasyon ID";
-            this.columnHeader9.Width = 156;
-            // 
             // columnHeader13
             // 
             this.columnHeader13.Text = "Kart ID";
@@ -250,7 +249,7 @@ namespace Veri_tabanı_proje
             this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.DarkOrchid;
             this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.White;
             this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.DarkOrchid;
-            this.bunifuThinButton21.BackColor = System.Drawing.Color.Snow;
+            this.bunifuThinButton21.BackColor = System.Drawing.Color.SlateBlue;
             this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
             this.bunifuThinButton21.ButtonText = "ANA MENÜYE DÖN";
             this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -261,10 +260,10 @@ namespace Veri_tabanı_proje
             this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.White;
             this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.MediumOrchid;
             this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.MediumOrchid;
-            this.bunifuThinButton21.Location = new System.Drawing.Point(386, 724);
-            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuThinButton21.Location = new System.Drawing.Point(290, 588);
+            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuThinButton21.Name = "bunifuThinButton21";
-            this.bunifuThinButton21.Size = new System.Drawing.Size(269, 48);
+            this.bunifuThinButton21.Size = new System.Drawing.Size(202, 39);
             this.bunifuThinButton21.TabIndex = 11;
             this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuThinButton21.Click += new System.EventHandler(this.bunifuThinButton21_Click);
@@ -287,22 +286,22 @@ namespace Veri_tabanı_proje
             this.bunifuThinButton22.IdleFillColor = System.Drawing.Color.White;
             this.bunifuThinButton22.IdleForecolor = System.Drawing.Color.MediumOrchid;
             this.bunifuThinButton22.IdleLineColor = System.Drawing.Color.MediumOrchid;
-            this.bunifuThinButton22.Location = new System.Drawing.Point(711, 724);
-            this.bunifuThinButton22.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuThinButton22.Location = new System.Drawing.Point(533, 588);
+            this.bunifuThinButton22.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuThinButton22.Name = "bunifuThinButton22";
-            this.bunifuThinButton22.Size = new System.Drawing.Size(205, 48);
+            this.bunifuThinButton22.Size = new System.Drawing.Size(154, 39);
             this.bunifuThinButton22.TabIndex = 12;
             this.bunifuThinButton22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuThinButton22.Click += new System.EventHandler(this.bunifuThinButton22_Click);
             // 
             // Yonetici_Ekran
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.SlateBlue;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1249, 786);
+            this.ClientSize = new System.Drawing.Size(937, 639);
             this.Controls.Add(this.bunifuThinButton22);
             this.Controls.Add(this.bunifuThinButton21);
             this.Controls.Add(this.listView_musteri);
@@ -315,6 +314,7 @@ namespace Veri_tabanı_proje
             this.ForeColor = System.Drawing.SystemColors.Control;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Yonetici_Ekran";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Yonetici_Ekran";
@@ -339,7 +339,6 @@ namespace Veri_tabanı_proje
         private System.Windows.Forms.ColumnHeader columnHeader6;
         private System.Windows.Forms.ColumnHeader columnHeader7;
         private System.Windows.Forms.ColumnHeader columnHeader8;
-        private System.Windows.Forms.ColumnHeader columnHeader9;
         private System.Windows.Forms.ColumnHeader columnHeader10;
         private System.Windows.Forms.ColumnHeader columnHeader11;
         private System.Windows.Forms.ColumnHeader columnHeader12;

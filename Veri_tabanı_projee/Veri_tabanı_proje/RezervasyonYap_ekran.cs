@@ -19,12 +19,13 @@ namespace Veri_tabanı_proje
         }
         string reztip;
 
-        //reyyan SqlConnection baglanti = new SqlConnection(@"Data Source=DESKTOP-56SRHAG;Initial Catalog=otel_rezervasyon;Integrated Security=True");
+        SqlConnection baglanti = new SqlConnection(@"Data Source=DESKTOP-56SRHAG;Initial Catalog=otel_rezervasyon;Integrated Security=True");
         //sena SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-52OSE7G;Initial Catalog=otel_rezervasyon;Integrated Security=True");
-        SqlConnection baglanti = new SqlConnection("Data Source = DESKTOP-N6SCB07; Initial Catalog = otel_rezervasyon; Integrated Security = True");
+       //rojin SqlConnection baglanti = new SqlConnection("Data Source = DESKTOP-N6SCB07; Initial Catalog = otel_rezervasyon; Integrated Security = True");
 
         private void btnRezerveEt_Click(object sender, EventArgs e)
         {
+
 
             if (rbOnOdemeRez.Checked == true)
             {
@@ -62,7 +63,7 @@ namespace Veri_tabanı_proje
             }
             else
             {
-                MessageBox.Show("Hatalı giriş\nÖn Ödeme için 90 gün önceden rezervasyon almalısınız");
+                MessageBox.Show("Hatalı giriş!\nDoğru butonu seçtiğinize emin olun.");
 
             }
 

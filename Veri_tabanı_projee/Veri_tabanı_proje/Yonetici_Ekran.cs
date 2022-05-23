@@ -17,9 +17,9 @@ namespace Veri_tabanı_proje
         {
             InitializeComponent();
         }
-        //reyyan SqlConnection baglanti = new SqlConnection(@"Data Source=DESKTOP-56SRHAG;Initial Catalog=otel_rezervasyon;Integrated Security=True");
+        SqlConnection baglanti = new SqlConnection(@"Data Source=DESKTOP-56SRHAG;Initial Catalog=otel_rezervasyon;Integrated Security=True");
         // senaSqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-52OSE7G;Initial Catalog=otel_rezervasyon;Integrated Security=True");
-        SqlConnection baglanti = new SqlConnection("Data Source = DESKTOP-N6SCB07; Initial Catalog = otel_rezervasyon; Integrated Security = True");
+       //rojin SqlConnection baglanti = new SqlConnection("Data Source = DESKTOP-N6SCB07; Initial Catalog = otel_rezervasyon; Integrated Security = True");
         private void calisanVerileriGoster()
         {
             baglanti.Open();
@@ -47,7 +47,7 @@ namespace Veri_tabanı_proje
         private void musteriVerileriGoster()
         {
             baglanti.Open();
-            SqlCommand komut = new SqlCommand("Select *from tblMusteriler", baglanti);
+            SqlCommand komut = new SqlCommand("Select * from tblMusteriler", baglanti);
             SqlDataReader oku = komut.ExecuteReader();
 
             while (oku.Read())
@@ -58,7 +58,7 @@ namespace Veri_tabanı_proje
                 ekle.SubItems.Add(oku["musteri_soyadi"].ToString());
                 ekle.SubItems.Add(oku["musteri_tel"].ToString());
                 ekle.SubItems.Add(oku["musteri_mail"].ToString());
-                ekle.SubItems.Add(oku["rezervasyon_id"].ToString());
+               // ekle.SubItems.Add(oku["rezervasyon_id"].ToString());
                 ekle.SubItems.Add(oku["kart_id"].ToString());
                 ekle.SubItems.Add(oku["oda_id"].ToString());
 

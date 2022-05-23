@@ -70,9 +70,10 @@ namespace Veri_tabanı_proje
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.ForeColor = System.Drawing.Color.Brown;
-            this.label3.Location = new System.Drawing.Point(852, 520);
+            this.label3.Location = new System.Drawing.Point(568, 338);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(343, 31);
+            this.label3.Size = new System.Drawing.Size(227, 20);
             this.label3.TabIndex = 67;
             this.label3.Text = "Rezervasyon Tipini Seçiniz..";
             // 
@@ -82,10 +83,10 @@ namespace Veri_tabanı_proje
             this.rbTesvikRez.BackColor = System.Drawing.Color.Transparent;
             this.rbTesvikRez.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rbTesvikRez.ForeColor = System.Drawing.Color.Black;
-            this.rbTesvikRez.Location = new System.Drawing.Point(884, 760);
-            this.rbTesvikRez.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.rbTesvikRez.Location = new System.Drawing.Point(589, 494);
+            this.rbTesvikRez.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.rbTesvikRez.Name = "rbTesvikRez";
-            this.rbTesvikRez.Size = new System.Drawing.Size(210, 28);
+            this.rbTesvikRez.Size = new System.Drawing.Size(148, 21);
             this.rbTesvikRez.TabIndex = 66;
             this.rbTesvikRez.TabStop = true;
             this.rbTesvikRez.Text = "Teşvik Rezervasyon";
@@ -97,10 +98,10 @@ namespace Veri_tabanı_proje
             this.rbStandartRez.BackColor = System.Drawing.Color.Transparent;
             this.rbStandartRez.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rbStandartRez.ForeColor = System.Drawing.Color.Black;
-            this.rbStandartRez.Location = new System.Drawing.Point(884, 698);
-            this.rbStandartRez.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.rbStandartRez.Location = new System.Drawing.Point(589, 454);
+            this.rbStandartRez.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.rbStandartRez.Name = "rbStandartRez";
-            this.rbStandartRez.Size = new System.Drawing.Size(232, 28);
+            this.rbStandartRez.Size = new System.Drawing.Size(161, 21);
             this.rbStandartRez.TabIndex = 65;
             this.rbStandartRez.TabStop = true;
             this.rbStandartRez.Text = "Standart Rezervasyon";
@@ -112,10 +113,10 @@ namespace Veri_tabanı_proje
             this.rb60GunOncedenRez.BackColor = System.Drawing.Color.Transparent;
             this.rb60GunOncedenRez.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rb60GunOncedenRez.ForeColor = System.Drawing.Color.Black;
-            this.rb60GunOncedenRez.Location = new System.Drawing.Point(884, 634);
-            this.rb60GunOncedenRez.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.rb60GunOncedenRez.Location = new System.Drawing.Point(589, 412);
+            this.rb60GunOncedenRez.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.rb60GunOncedenRez.Name = "rb60GunOncedenRez";
-            this.rb60GunOncedenRez.Size = new System.Drawing.Size(303, 28);
+            this.rb60GunOncedenRez.Size = new System.Drawing.Size(210, 21);
             this.rb60GunOncedenRez.TabIndex = 64;
             this.rb60GunOncedenRez.TabStop = true;
             this.rb60GunOncedenRez.Text = "60 Gün Önceden Rezervasyon";
@@ -127,10 +128,10 @@ namespace Veri_tabanı_proje
             this.rbOnOdemeRez.BackColor = System.Drawing.Color.Transparent;
             this.rbOnOdemeRez.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rbOnOdemeRez.ForeColor = System.Drawing.Color.Black;
-            this.rbOnOdemeRez.Location = new System.Drawing.Point(884, 574);
-            this.rbOnOdemeRez.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.rbOnOdemeRez.Location = new System.Drawing.Point(589, 373);
+            this.rbOnOdemeRez.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.rbOnOdemeRez.Name = "rbOnOdemeRez";
-            this.rbOnOdemeRez.Size = new System.Drawing.Size(260, 28);
+            this.rbOnOdemeRez.Size = new System.Drawing.Size(183, 21);
             this.rbOnOdemeRez.TabIndex = 63;
             this.rbOnOdemeRez.TabStop = true;
             this.rbOnOdemeRez.Text = "Ön Ödemeli Rezervasyon";
@@ -138,34 +139,34 @@ namespace Veri_tabanı_proje
             // 
             // txtMail
             // 
-            this.txtMail.Location = new System.Drawing.Point(987, 438);
-            this.txtMail.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtMail.Location = new System.Drawing.Point(658, 285);
+            this.txtMail.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtMail.Name = "txtMail";
-            this.txtMail.Size = new System.Drawing.Size(200, 26);
+            this.txtMail.Size = new System.Drawing.Size(135, 20);
             this.txtMail.TabIndex = 62;
             // 
             // txtTelefon
             // 
-            this.txtTelefon.Location = new System.Drawing.Point(987, 365);
-            this.txtTelefon.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtTelefon.Location = new System.Drawing.Point(658, 237);
+            this.txtTelefon.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtTelefon.Name = "txtTelefon";
-            this.txtTelefon.Size = new System.Drawing.Size(200, 26);
+            this.txtTelefon.Size = new System.Drawing.Size(135, 20);
             this.txtTelefon.TabIndex = 61;
             // 
             // txtSoyad
             // 
-            this.txtSoyad.Location = new System.Drawing.Point(987, 298);
-            this.txtSoyad.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtSoyad.Location = new System.Drawing.Point(658, 194);
+            this.txtSoyad.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtSoyad.Name = "txtSoyad";
-            this.txtSoyad.Size = new System.Drawing.Size(200, 26);
+            this.txtSoyad.Size = new System.Drawing.Size(135, 20);
             this.txtSoyad.TabIndex = 60;
             // 
             // txtAd
             // 
-            this.txtAd.Location = new System.Drawing.Point(987, 235);
-            this.txtAd.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtAd.Location = new System.Drawing.Point(658, 153);
+            this.txtAd.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtAd.Name = "txtAd";
-            this.txtAd.Size = new System.Drawing.Size(200, 26);
+            this.txtAd.Size = new System.Drawing.Size(135, 20);
             this.txtAd.TabIndex = 59;
             // 
             // label10
@@ -174,9 +175,10 @@ namespace Veri_tabanı_proje
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(840, 438);
+            this.label10.Location = new System.Drawing.Point(560, 285);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(91, 25);
+            this.label10.Size = new System.Drawing.Size(63, 17);
             this.label10.TabIndex = 56;
             this.label10.Text = "E-posta:";
             // 
@@ -186,9 +188,10 @@ namespace Veri_tabanı_proje
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label11.ForeColor = System.Drawing.Color.Black;
-            this.label11.Location = new System.Drawing.Point(840, 365);
+            this.label11.Location = new System.Drawing.Point(560, 237);
+            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(88, 25);
+            this.label11.Size = new System.Drawing.Size(62, 17);
             this.label11.TabIndex = 55;
             this.label11.Text = "Telefon:";
             // 
@@ -198,9 +201,10 @@ namespace Veri_tabanı_proje
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label12.ForeColor = System.Drawing.Color.Black;
-            this.label12.Location = new System.Drawing.Point(840, 298);
+            this.label12.Location = new System.Drawing.Point(560, 194);
+            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(75, 25);
+            this.label12.Size = new System.Drawing.Size(51, 17);
             this.label12.TabIndex = 54;
             this.label12.Text = "Soyad:";
             // 
@@ -210,9 +214,10 @@ namespace Veri_tabanı_proje
             this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label13.ForeColor = System.Drawing.Color.Black;
-            this.label13.Location = new System.Drawing.Point(840, 234);
+            this.label13.Location = new System.Drawing.Point(560, 152);
+            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(46, 25);
+            this.label13.Size = new System.Drawing.Size(32, 17);
             this.label13.TabIndex = 53;
             this.label13.Text = "Ad:";
             // 
@@ -222,9 +227,10 @@ namespace Veri_tabanı_proje
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label14.ForeColor = System.Drawing.Color.Black;
-            this.label14.Location = new System.Drawing.Point(840, 162);
+            this.label14.Location = new System.Drawing.Point(560, 105);
+            this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(131, 25);
+            this.label14.Size = new System.Drawing.Size(90, 17);
             this.label14.TabIndex = 52;
             this.label14.Text = "Çıkış Tarihi:";
             // 
@@ -234,9 +240,10 @@ namespace Veri_tabanı_proje
             this.label15.BackColor = System.Drawing.Color.Transparent;
             this.label15.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label15.ForeColor = System.Drawing.Color.Black;
-            this.label15.Location = new System.Drawing.Point(840, 91);
+            this.label15.Location = new System.Drawing.Point(560, 59);
+            this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(129, 25);
+            this.label15.Size = new System.Drawing.Size(87, 17);
             this.label15.TabIndex = 51;
             this.label15.Text = "Giriş Tarihi:";
             // 
@@ -246,24 +253,27 @@ namespace Veri_tabanı_proje
             this.label16.BackColor = System.Drawing.Color.Transparent;
             this.label16.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label16.ForeColor = System.Drawing.Color.Brown;
-            this.label16.Location = new System.Drawing.Point(852, 25);
+            this.label16.Location = new System.Drawing.Point(568, 16);
+            this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(335, 35);
+            this.label16.Size = new System.Drawing.Size(227, 23);
             this.label16.TabIndex = 50;
             this.label16.Text = "Hemen Rezervasyon Yap!";
             // 
             // dtpGirisTarih
             // 
-            this.dtpGirisTarih.Location = new System.Drawing.Point(987, 91);
+            this.dtpGirisTarih.Location = new System.Drawing.Point(658, 59);
+            this.dtpGirisTarih.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dtpGirisTarih.Name = "dtpGirisTarih";
-            this.dtpGirisTarih.Size = new System.Drawing.Size(200, 26);
+            this.dtpGirisTarih.Size = new System.Drawing.Size(135, 20);
             this.dtpGirisTarih.TabIndex = 70;
             // 
             // dtpCikisTarih
             // 
-            this.dtpCikisTarih.Location = new System.Drawing.Point(987, 161);
+            this.dtpCikisTarih.Location = new System.Drawing.Point(658, 105);
+            this.dtpCikisTarih.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dtpCikisTarih.Name = "dtpCikisTarih";
-            this.dtpCikisTarih.Size = new System.Drawing.Size(200, 26);
+            this.dtpCikisTarih.Size = new System.Drawing.Size(135, 20);
             this.dtpCikisTarih.TabIndex = 71;
             // 
             // btnAnaMenu
@@ -284,10 +294,10 @@ namespace Veri_tabanı_proje
             this.btnAnaMenu.IdleFillColor = System.Drawing.Color.White;
             this.btnAnaMenu.IdleForecolor = System.Drawing.Color.SaddleBrown;
             this.btnAnaMenu.IdleLineColor = System.Drawing.Color.Maroon;
-            this.btnAnaMenu.Location = new System.Drawing.Point(786, 855);
-            this.btnAnaMenu.Margin = new System.Windows.Forms.Padding(6);
+            this.btnAnaMenu.Location = new System.Drawing.Point(524, 556);
+            this.btnAnaMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAnaMenu.Name = "btnAnaMenu";
-            this.btnAnaMenu.Size = new System.Drawing.Size(235, 69);
+            this.btnAnaMenu.Size = new System.Drawing.Size(157, 45);
             this.btnAnaMenu.TabIndex = 73;
             this.btnAnaMenu.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnAnaMenu.Click += new System.EventHandler(this.btnAnaMenu_Click);
@@ -310,10 +320,10 @@ namespace Veri_tabanı_proje
             this.btnRezerveEt.IdleFillColor = System.Drawing.Color.White;
             this.btnRezerveEt.IdleForecolor = System.Drawing.Color.SaddleBrown;
             this.btnRezerveEt.IdleLineColor = System.Drawing.Color.Maroon;
-            this.btnRezerveEt.Location = new System.Drawing.Point(1046, 855);
-            this.btnRezerveEt.Margin = new System.Windows.Forms.Padding(6);
+            this.btnRezerveEt.Location = new System.Drawing.Point(697, 556);
+            this.btnRezerveEt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnRezerveEt.Name = "btnRezerveEt";
-            this.btnRezerveEt.Size = new System.Drawing.Size(223, 69);
+            this.btnRezerveEt.Size = new System.Drawing.Size(149, 45);
             this.btnRezerveEt.TabIndex = 72;
             this.btnRezerveEt.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnRezerveEt.Click += new System.EventHandler(this.btnRezerveEt_Click);
@@ -329,19 +339,19 @@ namespace Veri_tabanı_proje
             this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(150)))), ((int)(((byte)(84)))));
             this.bunifuGradientPanel1.Location = new System.Drawing.Point(0, 0);
-            this.bunifuGradientPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.bunifuGradientPanel1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
             this.bunifuGradientPanel1.Quality = 10;
-            this.bunifuGradientPanel1.Size = new System.Drawing.Size(714, 924);
+            this.bunifuGradientPanel1.Size = new System.Drawing.Size(476, 601);
             this.bunifuGradientPanel1.TabIndex = 7;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(27, 115);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(18, 75);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(664, 682);
+            this.pictureBox1.Size = new System.Drawing.Size(443, 443);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
@@ -350,9 +360,10 @@ namespace Veri_tabanı_proje
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.LinkColor = System.Drawing.Color.Brown;
-            this.linkLabel1.Location = new System.Drawing.Point(1128, 814);
+            this.linkLabel1.Location = new System.Drawing.Point(752, 529);
+            this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(141, 20);
+            this.linkLabel1.Size = new System.Drawing.Size(94, 13);
             this.linkLabel1.TabIndex = 74;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Bilgilendirme Metni";
@@ -360,12 +371,12 @@ namespace Veri_tabanı_proje
             // 
             // RezervasyonYap_ekran
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FloralWhite;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1307, 924);
+            this.ClientSize = new System.Drawing.Size(871, 512);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.btnAnaMenu);
             this.Controls.Add(this.btnRezerveEt);
@@ -391,7 +402,7 @@ namespace Veri_tabanı_proje
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "RezervasyonYap_ekran";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RezervasyonYap_ekran";
